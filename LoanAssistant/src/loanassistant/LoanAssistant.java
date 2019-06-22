@@ -1,6 +1,5 @@
 package loanassistant;
-import java.awt.desktop.*;
-import java.net.URI;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -108,9 +107,6 @@ public class LoanAssistant {
 	public static void main(String[] args) throws Exception
 	{
 		// TODO Auto-generated method stub
-		Desktop d=Desktop.getDesktop();
-		d.browse(new URI("http://LoanAssistant_megha.com"));
-		
 		new LoanAssistant();
 	}
 	
