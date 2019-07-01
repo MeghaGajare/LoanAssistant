@@ -101,7 +101,7 @@ public class LoanAssistant {
     	f.setSize(700,350);
     	f.setLayout(null);
     	f.setVisible(true);	    	
-    	
+    	f.setResizable(false);
     }
 	
 	public static void main(String[] args) throws Exception
